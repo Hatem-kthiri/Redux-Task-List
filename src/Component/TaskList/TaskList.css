@@ -1,0 +1,22 @@
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+
+.group-btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+     width: 500px;
+     margin-top: 10px;
+}
+
+.listTask{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,28 @@
+#description{
+    width: 500px;
+    height: 40px;
+    border-radius: 20px;
+    margin-right: 10px;
+    
+}
+#description:hover{
+    outline-style: none;
+}
+#description:focus{
+    outline-style: none;
+}
+#description::placeholder{
+    padding-left: 5px;
+}
+input{
+    padding-left: 10px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    padding-left: 107px;
+    padding-top: 20px;
+}
+.Button-add{
+    width: 100px;
+}
