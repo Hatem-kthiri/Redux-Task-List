@@ -18,7 +18,7 @@ function ListTask(props) {
             <div className="group-btn">
                 <Button variant="warning" onClick={()=>{setFilter(true);setDone(true)}} >Show Done</Button>
                 <Button variant="danger" onClick={()=>{setFilter(true);setDone(false)}} > Show Not Done</Button>
-                <Button variant="info"onClick={()=>setFilter(false)} >Remove All Filters</Button>
+                <Button variant="outline-info"onClick={()=>setFilter(false)} style={{width:'70px'}}>All</Button>
             </div>
             <div className='list'>
             {

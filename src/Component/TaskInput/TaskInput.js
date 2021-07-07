@@ -16,12 +16,13 @@ function TaskInput(props) {
     
     const handleSubmit = (e) => {
         e.preventDefault()
+        
        props.addTask({ description :description})
     }
     return (
         <form onSubmit={handleSubmit} className="form">
             <div>
-                <input type="text" placeholder="Enter Your Description Here ... " id="description" onChange={e => setDescription(e.target.value)}/>
+                <input type="text" placeholder="Enter Your Description Here ... " id="description" onChange={e =>  setDescription(e.target.value)}/>
             </div>
             <div>
                 <Button type="submit" variant="success" className="Button-add">Add</Button>
